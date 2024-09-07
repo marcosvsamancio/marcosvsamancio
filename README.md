@@ -33,6 +33,13 @@ Se você quiser contribuir para o projeto, fique à vontade para abrir um pull r
 * **CSS:** Estilização da página.
 * **JavaScript:** Lógica do aplicativo.
 
+**Possibilidades de futuras implementações:**
+
+* Na seção Estudar: Inserção de links na base de dados, mostrados ao usuário para continuar aprendendo sobre determinado país.
+* Criação de um modo mais fácil do quiz, com alternativas aleatórias, ao invés de um campo de input de texto.
+* Implementação de uma lógica de excluir uma pergunta (país ou bandeira) que já foi perguntada, para que sempre sejam feitas novas perguntas.
+* Com a implementação anterior, incluir no contador o formato Nº/195, para melhor visualização do desempenho do usuário. 
+
 **Autor:**
 
 Marcos V. S. Amancio
