@@ -32,6 +32,7 @@ Se você quiser contribuir para o projeto, fique à vontade para abrir um pull r
 * **HTML:** Estrutura da página.
 * **CSS:** Estilização da página.
 * **JavaScript:** Lógica do aplicativo.
+* **Google Gemini:** Auxílio do desenvolvimento, documentação do código e geração da imagem do ícone.
 
 **Possibilidades de futuras implementações:**
 
