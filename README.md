@@ -1,5 +1,6 @@
 
-!(/nerdmundi-icon.png)
+![](nerdmundi-icon.png)
+
 **NERD-MUNDI**
 
 Prepare-se para embarcar em uma aventura geográfica sem sair de casa! O NERD-MUNDI é um aplicativo web interativo que te desafia a testar seus conhecimentos sobre países, capitais e bandeiras do mundo todo.
