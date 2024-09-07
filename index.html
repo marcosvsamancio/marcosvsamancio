@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NERD-MUNDI</title>
+</head>
+<body>
+    <header>
+        <img src="nerdpaises.png">
+        <h1>NERD-MUNDI</h1>
+        <p>Aprenda ou desafie o seu conhecimento sobre os países do mundo.</p>
+    </header>
+    <main>
+        <div class="menu">
+            <section>
+                <button onclick="clicarEstudar()">Estudar</button>
+                <button onclick="clicarCapitais()">Adivinhar capitais</button>
+                <button onclick="clicarBandeiras()">Adivinhar bandeiras</button>
+            </section>
+        </div>
+
+        <div class="modos" id="modo-estudar" style="display: none;">
+            <section>
+                <h2 class="titulo-modo">Fique à vontade para ver as capitais e  as bandeiras dos países</h2>
+                <input type="text" placeholder="Pesquise um continente, um país ou capital" id="campo-pesquisa">
+                <button onclick="pesquisar()">Pesquisar</button>
+            </section>
+            <section class="resultados-pesquisa" id="resultados-pesquisa">
+            </section>
+        </div>
+
+        <div class="modos" id="modo-capitais" style="display: none;">
+            <h2 class="titulo-modo">Quantas capitais você consegue acertar?</h2>
+            <section class="campo-pergunta-capital" id="campo-pergunta-capital">
+            </section>
+            <h2>Qual é a capital?</h2>
+            <section>
+                <input type="text" placeholder="Digite sua resposta" id="campo-resposta-capital">
+                <button onclick="confirmarCapitalResposta()">Confirmar</button>
+                <h2 id="contador-capital"></h2>
+            </section>
+        </div>
+
+        <div class="modos" id="modo-bandeiras" style="display: none;">
+                <h2 class="titulo-modo">Quantas bandeiras você consegue acertar?</h2>
+                <section class="campo-pergunta-bandeira" id="campo-pergunta-bandeira">
+                </section>
+                <h2>De que país é esta bandeira?</h2>
+                <section>
+                    <input type="text" placeholder="Digite sua resposta" id="campo-resposta-bandeira">
+                    <button onclick="confirmarBandeiraResposta()">Confirmar</button>
+                    <h2 id="contador-bandeira"></h2>
+                </section>
+            </div>
+    
+    </main>
+    <footer>
+        <p>2024 - NERD-MUNDI. Todos os direitos reservados.</p>
+        <p>Entre em contato: marcosvsamancio@gmail.com</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
