@@ -1,4 +1,3 @@
-// Na seção Estudar
 // Função para pesquisar um país, capital ou continente.
 function pesquisar() {
     // Obtém a seção onde os resultados serão exibidos e o valor digitado pelo usuário.
